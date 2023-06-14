@@ -1,0 +1,229 @@
+body {
+	background: #F0F0F8 0% 0% no-repeat padding-box;
+	font-family: 'Hat Display', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+.contenedor {
+	display: flex;
+	min-height: 70px;
+	align-items: center;
+	justify-content: space-between;
+	border-bottom: 1px solid #3E323E;
+	padding: 0 20px;
+}
+
+.texto {
+	font: normal normal 800 20px/26px 'Red Hat Display', sans-serif;
+	color: #3E323E;
+	margin-left: 40px;
+}
+
+.icon {
+	display: flex;
+	align-items: center;
+}
+
+.icon-settings, .icon-bell {
+	margin-right: 10px;
+}
+
+.contenedordos {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-left: 450px;
+	padding-right: 450px;
+
+}
+
+.pokemon,
+.mas,
+.pokemonelemento {
+	flex: 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.mas {
+	 padding: 10px;
+}
+
+.pokemon{
+	padding-top: 70px;
+
+}
+
+.pokemonelemento{
+	padding-top: 10px;
+
+
+}
+
+.contenedortres {
+	padding: 20px;
+}
+
+  
+  .contenedor-botones {
+	display: flex;
+	justify-content: center;
+	background-color: #fff;
+	padding: 10px;
+	border-radius: 10px; /* Agrega el radio de 10px */
+  }
+  
+  .boton1 {
+	display: flex;
+	align-items: center;
+	border: none;
+	background-color: transparent;
+	cursor: pointer;
+	margin: 5px;
+  }
+  
+  .circulo1 {
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	background-color: #2190FF;
+  }
+  
+  .texto1 {
+	font: normal normal 800 20px/26px 'Red Hat Display', sans-serif;
+	color: #3E323E;
+	font-size: 16px;
+	margin-left: 10px;
+  }
+
+  .boton2 {
+	display: flex;
+	align-items: center;
+	border: none;
+	background-color: transparent;
+	cursor: pointer;
+	margin: 5px;
+  }
+  
+  .circulo2 {
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	background-color: #FF4422
+  }
+  
+  .texto2 {
+	font: normal normal 800 20px/26px 'Red Hat Display', sans-serif;
+	color: #3E323E;
+	font-size: 16px;
+	margin-left: 10px;
+  }
+
+  .boton3 {
+	display: flex;
+	align-items: center;
+	border: none;
+	background-color: transparent;
+	cursor: pointer;
+	margin: 5px;
+  }
+  
+  .circulo3 {
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	background-color: #58D883
+  }
+  
+  .texto3 {
+	font: normal normal 800 20px/26px 'Red Hat Display', sans-serif;
+	color: #3E323E;
+	font-size: 16px;
+	margin-left: 10px;
+  }
+
+  .boton4 {
+	display: flex;
+	align-items: center;
+	border: none;
+	background-color: transparent;
+	cursor: pointer;
+	margin: 5px;
+  }
+  
+  .circulo4 {
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	background-color: #8899FF
+  }
+  
+  .texto4 {
+	font: normal normal 800 20px/26px 'Red Hat Display', sans-serif;
+	color: #3E323E;
+	font-size: 16px;
+	margin-left: 10px;
+  }
+
+
+  .icono {
+	color: #fff;
+	font-size: 20px;
+	margin: 1% auto;
+  }
+  
+  .contenedordos {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin-top: 20px;
+  }
+  
+  /* Agrega estilos adicionales según tus necesidades */
+  
+
+
+  @media screen and (max-width: 480px) {
+	.contenedor {
+		flex-direction: column;
+		align-items: flex-start;
+		padding: 20px;
+	}
+
+	.texto {
+		margin-left: 0;
+		margin-top: 20px;
+	}
+
+	.contenedordos {
+		flex-direction: column;
+		align-items: center;
+		padding: 20px;
+	}
+
+	.pokemon,
+	.mas,
+	.pokemonelemento {
+		padding: 10px;
+	}
+
+	.contenedor-botones {
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+	.boton1,
+	.boton2,
+	.boton3,
+	.boton4 {
+		margin: 5px;
+	}
+
+	.icono {
+		font-size: 16px;
+		margin: 0 auto;
+	}
+}
